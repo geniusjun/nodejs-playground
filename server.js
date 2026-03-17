@@ -96,4 +96,7 @@ const server = http.createServer((req, res) => {
         }
     }
 });
-server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+server.listen(PORT, () => {
+    console.log('Rho changjun (노창준)');
+    console.log(`Server running on port ${PORT}`);
+});
